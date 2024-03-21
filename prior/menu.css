@@ -1,0 +1,18 @@
+#menu-btn {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: transparent;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  nav ul {
+    display: none;
+  }
+  
+  #menu-btn:focus + nav ul,
+  #menu-btn:focus ~ .hero {
+    display: block;
+  }
